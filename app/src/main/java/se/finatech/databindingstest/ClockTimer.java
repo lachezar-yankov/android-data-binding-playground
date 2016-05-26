@@ -73,7 +73,7 @@ public class ClockTimer extends BaseObservable { // Plain Old Java Object (a.k.a
         }
     }
 
-    public void onTimerPressed(View view) {
+    public void togglePause() {
         isTimerPaused = !isTimerPaused;
     }
 }
